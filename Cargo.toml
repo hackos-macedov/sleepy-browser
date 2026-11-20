@@ -1,0 +1,10 @@
+[package]
+name = "sleepy-browser"
+version = "0.1.0"
+edition = "2021"
+description = "A minimalist Windows browser shell built with Rust and WebView2"
+
+[dependencies]
+wry = "0.47"
+tao = "0.30"
+serde_json = "1"
